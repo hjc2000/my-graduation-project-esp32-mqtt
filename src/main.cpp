@@ -11,5 +11,5 @@ void setup()
 
 void loop()
 {
-  vTaskDelete(nullptr); // loop函数不需要用到，直接释放，避免浪费资源
+  vTaskDelete(nullptr);
 }
